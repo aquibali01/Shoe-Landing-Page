@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Shoe Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Find Your Perfect Pair</h2>
+            <p>Discover our collection of stylish and comfortable shoes.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="images/shoe1.jpg" alt="Shoe 1">
+                    <h3>Running Shoe</h3>
+                    <p>$99.99</p>
+                </div>
+                <div class="product">
+                    <img src="images/shoe2.jpg" alt="Shoe 2">
+                    <h3>Casual Sneaker</h3>
+                    <p>$79.99</p>
+                </div>
+                <div class="product">
+                    <img src="images/shoe3.jpg" alt="Shoe 3">
+                    <h3>Leather Boot</h3>
+                    <p>$129.99</p>
+                </div>
+                <div class="product">
+                    <img src="images/shoe1.jpg" alt="Shoe 1">
+                    <h3>Running Shoe</h3>
+                    <p>$99.99</p>
+                </div>
+                <div class="product">
+                    <img src="images/shoe2.jpg" alt="Shoe 2">
+                    <h3>Casual Sneaker</h3>
+                    <p>$79.99</p>
+                </div>
+                <div class="product">
+                    <img src="images/shoe3.jpg" alt="Shoe 3">
+                    <h3>Leather Boot</h3>
+                    <p>$129.99</p>
+                </div>
+                <div class="product">
+                    <img src="images/shoe1.jpg" alt="Shoe 1">
+                    <h3>Running Shoe</h3>
+                    <p>$99.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Shoe Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Product Details Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="productTitle"></h2>
+            <p id="productDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
